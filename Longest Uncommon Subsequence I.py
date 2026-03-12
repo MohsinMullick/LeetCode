@@ -1,5 +1,5 @@
-class Solution:
-    def findLUSlength(self, a: str, b: str) -> int:
+class Solution(object):
+    def findLUSlength(self, a, b):
         if a == b:
             return -1
         else:
